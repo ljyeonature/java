@@ -1,0 +1,17 @@
+
+[ 용어 ]
+    - program   : 소프트웨어(프로그램)
+
+    - process   : CPU 실행 중인 프로그램
+
+    - Thread    : 하나의 프로세스 안에서 독립적이니 제어가 있는 부분
+
+
+[ 자바의 쓰레드 절차 ] - multitask
+
+(1) Thread 클래스 ( Runnable 인터페이스 ) 상속 받는 클래스
+    - run() overriding
+
+(2) 1번 클래스 객체 생성
+(2) run  메소드 호출
+            start() -> run()
